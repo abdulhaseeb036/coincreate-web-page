@@ -1,0 +1,70 @@
+
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),    //4px
+    2: ($spacer * .5),     //8px
+    3: $spacer,            //16px
+    4: ($spacer * 1.5),    //24px
+    5: ($spacer * 3),      //48px
+    6: ($spacer * 4),      //64px
+    7: ($spacer * 5),      //80px
+    8: ($spacer * 6.25),   //100px
+    9: ($spacer * 7.5),    //120px
+    10: ($spacer * 9.375), //150px
+    30: ($spacer * 15.3)  //150px
+  ),
+  $spacers
+);
+
+
+$position-values: (
+  0: 0,
+  1: 1%,
+  2: 2%,
+  3: 3%,
+  4: 4%,
+  5: 5%,
+  6: 6%,
+  7: 7%,
+  8: 8%,
+  9: 9%,
+  10: 10%,
+  11: 11%,
+  12: 12%,
+  13: 13%,
+  14: 14%,
+  15: 15%,
+  16: 16%,
+  17: 17%,
+  18: 18%,
+  19: 19%,
+  20: 20%,
+  25: 25%,
+  30: 30%,
+  40: 40%,
+  50: 50%,
+  60: 50%,
+  70: 50%,
+  80: 50%,
+  90: 50%,
+  100: 100%
+);
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$navbar-light-color: #748491;
+$navbar-light-hover-color: #2180FF;
+$navbar-light-active-color: #2180FF;
+
+$font-family-sans-serif:      "Roboto";
+$font-family-monospace:       "DM Sans";
+$font-family-base:            $font-family-sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
